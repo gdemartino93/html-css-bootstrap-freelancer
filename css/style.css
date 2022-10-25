@@ -1,0 +1,23 @@
+.top-head{
+    background-color: #33404F;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* debug */
+    min-height: 100px;
+}
+.prova{
+    min-height: 40px;
+    border: 1px solid black;
+}
+.prova-grande{
+    /* background-color: aqua; */
+    border: 1px solid black;
+}
+.sez-verde{
+    background-color: green;
+    color: white;
+}
+textarea.form-control {
+    height: 150px;
+    }
