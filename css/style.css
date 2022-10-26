@@ -8,7 +8,6 @@ nav{
     border: 1px solid black;
 }
 .prova-grande{
-    /* background-color: aqua; */
     border: 1px solid black;
 }
 .sez-verde{
@@ -20,4 +19,37 @@ textarea.form-control {
     }
 .logo-img{
     max-width: 300px;
+}
+.info-sez{
+    background: #42546A;
+    min-height: 500px;
+}
+/* form sovrascrive regola stile bootstrap attenzione*/
+.form-control::placeholder{
+    color: black;
+}
+/* form */
+.form-control:focus{
+    box-shadow: none;
+}
+.logotext{
+    font-size: calc(1.375rem + 2.5vw);
+    color: white;
+    font-weight: bold;
+}
+.star{
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.linea{
+    height: 0px;
+    border: 3px solid white;
+    display: flex;
+    border-radius: 10%;
+}
+.stairsize{
+    font-size: 3rem;
 }
