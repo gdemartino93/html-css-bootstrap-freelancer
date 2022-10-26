@@ -1,7 +1,17 @@
 
-nav{
+.colorenav{
     background: #33404F;
-    display: flex;
+ 
+}
+.nav-item>a{
+    color: white;
+    font-weight: bold;
+}
+.navbar-toggler {
+    border-color: white;
+}
+.navbar-toggler-icon{
+    filter: invert(43%) sepia(3%) saturate(208%) hue-rotate(169deg) brightness(94%) contrast(85%);
 }
 .prova{
     min-height: 40px;
