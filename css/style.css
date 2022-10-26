@@ -1,7 +1,9 @@
 
 .colorenav{
     background: #33404F;
- 
+}
+a{
+    text-decoration: none;
 }
 .nav-item>a{
     color: white;
@@ -21,7 +23,7 @@
     border: 1px solid black;
 }
 .sez-verde{
-    background-color: green;
+    background-color: #1ABC9C;
     color: white;
 }
 textarea.form-control {
@@ -32,7 +34,7 @@ textarea.form-control {
 }
 .info-sez{
     background: #42546A;
-    min-height: 500px;
+    color: white;
 }
 /* form sovrascrive regola stile bootstrap attenzione*/
 .form-control::placeholder{
@@ -69,5 +71,29 @@ textarea.form-control {
     border: 3px solid black;
 }
 .stairsize{
-    font-size: 3rem;
+    font-size: 1.5rem;
+}
+.lineainfo{
+    width: 100px;
+}
+.listacard:last-child{
+    margin-bottom: 20px;
+}
+h3{
+    font-weight: bold;
+}
+.cerchio{
+    width: 55px;
+    margin-right: 10px;
+}
+.cerchio i{
+    color: white;
+}
+footer{
+    background: #2C3E50;
+    color: white;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
