@@ -65,6 +65,9 @@ textarea.form-control {
     display: flex;
     border-radius: 10%;
 }
+.lineanera{
+    border: 3px solid black;
+}
 .stairsize{
     font-size: 3rem;
 }
