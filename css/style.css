@@ -97,3 +97,20 @@ footer{
     justify-content: center;
     align-items: center;
 }
+
+.rotate{
+    transition: .8s ease all;
+    transform: rotate(-360deg);
+    opacity: 2;
+}
+.rotate:hover {
+  transform: scale(1.5);
+  transform: rotate(0deg);
+   position: relative; 
+  z-index: 1;
+}
+.rotate:active{
+    transform: scale(1.3);
+    z-index: 1;
+    position: relative;
+}
