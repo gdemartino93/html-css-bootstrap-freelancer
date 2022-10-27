@@ -116,6 +116,49 @@ footer{
 }
 
 
+.ico-hover{
+    width: 5px;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 2; 
+    display: none;
+    /* animation: call 1s linear; */
+}
+.hoverme:hover .ico-hover{
+    display: block;
+    animation: call 2s linear;
+}
+@keyframes call {
+    10%{
+        width: 20px;
+    }
+    20%{
+        width: 30px;
+    }
+    40%{
+        width: 40px;
+    }
+    60%{
+        width: 60px;
+    }
+    80%{
+        width: 80px;
+    }
+    90%{
+        width: 90px;
+    }
+    100%{
+        display: block;
+    }
+    
+}
+.pos-rel{
+    position: relative;
+}
+
 /* .fa-solid:after{
     content: "";
     width: 20px;
